@@ -83,7 +83,6 @@ html{
   cursor: pointer;
   text-align: center;
 }
-
 .btn:hover {
   display: inline-block;
   border: solid #337FED 1px;
