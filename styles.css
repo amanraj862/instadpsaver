@@ -1,44 +1,52 @@
-body {
-  background-image: url('instaback2.png');
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 60%;
-  margin: auto;
+html{
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .heading {
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-family: 'Bangers', cursive;
-  color: #363636;
-  margin: 20px auto;
-  padding-top:10px;
+  color: #0f4c75;
+  margin:auto;
+  padding:10px;
 }
 .profpic{
-  padding:3% 7%;
   margin:auto;
+  display: flex;
+  justify-content: center;
   height:350px;
   width:350px;
+  padding-bottom: 2%
 }
 
 .tagline {
+  width:50%;
+  margin:auto;
   text-align: center;
-  margin: auto;
-  width: 70%;
-  text-shadow: 0 1px 2px 3px;
-  color: #1b262c;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 1px 10px 3px;
+  color: #0f4c75;
   font-family: 'Jua', sans-serif;
   font-size: 1.5rem;
+  padding-bottom: 10px;
 }
 
 .work {
-  width: 60%;
-  padding: 5% 7% 10%;
-  margin: 1% 15%;
-  display: inline-block;
+  padding:5%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.item2{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .linkfield{
   font-family: 'Jua', sans-serif;
@@ -91,7 +99,6 @@ body {
   text-decoration: none;
 }
 #footer{
-  padding: 2% 15%;
   text-align: center;
   margin: auto;
   position: relative;
@@ -104,6 +111,8 @@ body {
   text-align: center;
   margin:1% 10px;
   color: #000;
+  z-index: 1;
+  position: relative;
 }
 .hov-img1:hover{
   color:#e84a5f;
